@@ -1,0 +1,64 @@
+{"post": {
+    "post_owner": {
+        "name": "Name1",
+        "img": "images/user.png"
+    }
+    "timestamp": "10:30am",
+    "content": "Lorem de da I don't really know latin!",
+    "likes": 28,
+    "comments": 3
+    "user comments":{
+        "comment"{
+           "post_owner": {
+                "name": "Name1",
+                 "img": "images/user.png"
+            }
+            "post_content": "Lorem de da I don't really know latin!",
+            "timestamp": "10:30am",
+            "content": "Lorem de da I don't really know latin!",
+            "likes": 28,
+            "replies": 4
+            "user_replies":{
+                post_content": "Lorem de da I don't really know latin!",
+                "timestamp": "10:30am",
+                "content": "Lorem de da I don't really know latin!",
+                "likes": 28,
+                "replies": 4
+                "user_replies":{
+
+
+            }
+ 
+        }
+    }
+
+
+
+
+
+
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}}    
