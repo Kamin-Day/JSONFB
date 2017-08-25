@@ -134,7 +134,7 @@
                 ]
             }       
         ],
-        "add_comment_field:" {
+        "add_comment_field": {
             "text_field": "",
             "submit": "submit"
         }
